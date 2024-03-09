@@ -3242,6 +3242,7 @@ namespace RobloxFiles
             get => BrickColor;
             set => BrickColor = value;
         }
+        public Vector3 Position = Vector3.zero;
 
         public Vector3 size = new Vector3(4, 1.2f, 2);
     }
